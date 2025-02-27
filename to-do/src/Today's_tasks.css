@@ -1,0 +1,57 @@
+.today-tasks-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.today-tasks-header {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.task-card {
+    background: white;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    border-left: 5px solid #4ecdc4;
+}
+
+.task-title {
+    color: #2d3436;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.task-date {
+    color: #666;
+    font-size: 0.9rem;
+}
+.no-tasks-message {
+    font-size: 1.2rem;
+    color: #555;
+    text-align: center;
+    margin-top: 1.5rem;
+    background: #f8f9fa;
+    padding: 1rem;
+    border-radius: 8px;
+    border-left: 5px solid #ff6b6b;
+}
+.task-button.move-up-button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.task-button.move-up-button:hover {
+    background-color: #45a049;
+}

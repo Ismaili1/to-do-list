@@ -1,0 +1,48 @@
+.app-container {
+    min-height: 100vh;
+    background: #f8f9fa;
+    
+}
+
+.main-nav {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background: linear-gradient(135deg, #ff6b6b, #ff9f43);
+    padding: 1rem 0;
+    z-index: 1000;
+    
+}
+
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.content-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+}
